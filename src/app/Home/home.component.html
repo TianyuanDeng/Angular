@@ -4,6 +4,7 @@
     <div class="container">
       <h1 class="logo-font">Mizzou List</h1>
       <p>A modern <i>listings</i> website</p>
+      <p style="color:white;font-size: 1.8rem;">Create your post</p>
     </div>
   </div>
 
@@ -17,14 +18,14 @@
               <a class="nav-link"
                  [ngClass]="{'active': listConfig.type === 'feed'}"
                  (click)="setListTo('feed')">
-                 Your Feed
+                 Your Post
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link"
                  [ngClass]="{'active': listConfig.type === 'all' && !listConfig.filters.tag}"
                  (click)="setListTo('all')">
-                 Global Feed
+                 Global Post
               </a>
             </li>
             <li class="nav-item" [hidden]="!listConfig.filters.tag">

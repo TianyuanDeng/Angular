@@ -3706,7 +3706,7 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 }
 
 .nav-link.disabled,.nav-link.disabled:focus,.nav-link.disabled:hover {
-	color: #818a91;
+	color: #c29858;
 	cursor: not-allowed;
 	background-color: transparent
 }
@@ -3746,17 +3746,17 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 }
 
 .nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover {
-	border-color: #eceeef #eceeef #ddd
+	border-color: #f0ccb4 #f0ccb4 rgb(252, 92, 0)
 }
 
 .nav-tabs .nav-link.disabled,.nav-tabs .nav-link.disabled:focus,.nav-tabs .nav-link.disabled:hover {
-	color: #818a91;
+	color: #fc8804;
 	background-color: transparent;
 	border-color: transparent
 }
 
 .nav-tabs .nav-link.active,.nav-tabs .nav-link.active:focus,.nav-tabs .nav-link.active:hover,.nav-tabs .nav-item.open .nav-link,.nav-tabs .nav-item.open .nav-link:focus,.nav-tabs .nav-item.open .nav-link:hover {
-	color: #55595c;
+	color: #fc8804;
 	background-color: #fff;
 	border-color: #ddd #ddd transparent
 }
@@ -3811,7 +3811,9 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 	display: block
 }
 
+/* Header */
 .navbar {
+    background-color: rgba(0, 0, 0, 0.685);
 	position: relative;
 	padding: .5rem 1rem
 }
@@ -3872,12 +3874,13 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 	}
 }
 
+/* TLB */
 .navbar-brand {
 	float: left;
 	padding-top: .25rem;
 	padding-bottom: .25rem;
 	margin-right: 1rem;
-	font-size: 1.25rem
+	font-size: 1.8rem
 }
 
 .navbar-brand:focus,.navbar-brand:hover {
@@ -3952,23 +3955,24 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 }
 
 .navbar-light .navbar-brand {
-	color: rgba(0,0,0,.8)
+	color: rgb(241, 131, 67)
 }
 
 .navbar-light .navbar-brand:focus,.navbar-light .navbar-brand:hover {
-	color: rgba(0,0,0,.8)
+	color: rgba(247, 141, 80, 0.733)
 }
 
+/* Header Home */
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0,0,0,.3)
+	color: rgb(241, 131, 67)
 }
 
 .navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover {
-	color: rgba(0,0,0,.6)
+    color: rgba(247, 141, 80, 0.733)
 }
 
 .navbar-light .navbar-nav .open>.nav-link,.navbar-light .navbar-nav .open>.nav-link:focus,.navbar-light .navbar-nav .open>.nav-link:hover,.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .active>.nav-link:focus,.navbar-light .navbar-nav .active>.nav-link:hover,.navbar-light .navbar-nav .nav-link.open,.navbar-light .navbar-nav .nav-link.open:focus,.navbar-light .navbar-nav .nav-link.open:hover,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.active:focus,.navbar-light .navbar-nav .nav-link.active:hover {
-	color: rgba(0,0,0,.8)
+	color: rgba(247, 141, 80, 0.733)
 }
 
 .navbar-light .navbar-divider {
@@ -3984,11 +3988,11 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 }
 
 .navbar-dark .navbar-nav .nav-link {
-	color: rgba(255,255,255,.5)
+	color: rgba(245, 117, 12, 0.5)
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover {
-	color: rgba(255,255,255,.75)
+	color: rgba(245, 117, 12, 0.5)
 }
 
 .navbar-dark .navbar-nav .open>.nav-link,.navbar-dark .navbar-nav .open>.nav-link:focus,.navbar-dark .navbar-nav .open>.nav-link:hover,.navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .active>.nav-link:focus,.navbar-dark .navbar-nav .active>.nav-link:hover,.navbar-dark .navbar-nav .nav-link.open,.navbar-dark .navbar-nav .nav-link.open:focus,.navbar-dark .navbar-nav .nav-link.open:hover,.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.active:focus,.navbar-dark .navbar-nav .nav-link.active:hover {
@@ -3996,7 +4000,7 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 }
 
 .navbar-dark .navbar-divider {
-	background-color: rgba(255,255,255,.075)
+	background-color: rgba(245, 117, 12, 0.5)
 }
 
 .card {
@@ -6617,12 +6621,13 @@ ul.tag-list li {
 	display: inline-block!important
 }
 
+/* TLB Color */
 .navbar-brand {
 	font-family: titillium web,sans-serif;
 	font-size: 1.5rem!important;
 	padding-top: 0!important;
 	margin-right: 2rem!important;
-	color: #f0b924!important
+	color: rgb(241, 131, 67)!important
 }
 
 .nav-link .user-pic {
@@ -6647,7 +6652,7 @@ ul.tag-list li {
 
 /* Your Feed Hover */
 .nav-pills.outline-active .nav-link:hover {
-	color: rgb(194, 129, 91)
+	color: rgb(241, 131, 67)
 }
 
 .nav-pills.outline-active .nav-link.active {
@@ -6790,21 +6795,26 @@ footer .attribution {
 .home-page .banner {
 	background-image: url("https://engineering.missouri.edu//wp-content/uploads/2019/04/CampusBeauty-2016-VanSciver-ColumnsSunset-1.jpg");
     background-size: cover;
-    opacity: 0.85;
+    -webkit-filter: blur(0.3px);
+    -moz-filter: blur(0.3px);
+    -o-filter: blur(0.3px);
+    -ms-filter: blur(0.3px);
+    filter: blur(0.3px);
     z-index: 20;
     background-position: center center;
     visibility: inherit;
     width: 100%;
-    height: 100%;
-    box-shadow: inset 0 8px 8px -8px rgba(0,0,0,.3),inset 0 -8px 8px -8px rgba(0,0,0,.3)
+    height: 250px;
+    box-shadow: inset 0 8px 8px -8px rgba(0,0,0,.3),inset 0 -8px 8px -8px rgba(0,0,0,.3);
 }
 
+/* Mizzou List */
 .home-page .banner p {
-	color: rgb(0, 0, 0);
+	color: rgb(240, 168, 85);
 	text-align: center;
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: 300!important;
-	margin-bottom: 0
+    text-shadow: 0 3px 3px rgba(0,0,0,.3);
 }
 
 .home-page .banner h1 {
@@ -6812,7 +6822,7 @@ footer .attribution {
 	font-weight: 700!important;
 	text-align: center;
 	font-size: 3.5rem;
-	padding-bottom: .5rem
+    padding-bottom: .5rem;
 }
 
 .home-page .feed-toggle {
